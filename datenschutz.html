@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz · AutobotHome</title>
+<style>
+  :root { --bg: #f6f7f9; --fg: #1b1f24; --mut: #5f6b7a; --link: #2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111418; --fg: #e8ebef; --mut: #9aa5b1; --link: #7aa7ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+  h2 { font-size: 18px; margin-top: 28px; }
+  a { color: var(--link); }
+  .mut { color: var(--mut); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung</h1>
+  <p class="mut">Stand: 3. Oktober 2026</p>
+
+  <h2>Worum es geht</h2>
+  <p>AutobotHome ist eine private Hausautomation, die ausschließlich vom Betreiber für den eigenen Haushalt genutzt wird. Es gibt keine anderen Nutzer und keine öffentliche Anmeldung.</p>
+
+  <h2>Welche Daten verarbeitet werden</h2>
+  <p>Über die Google Smart Device Management API werden nur Daten der eigenen Nest-Türklingel abgerufen:</p>
+  <ul>
+    <li>Ereignisse (Klingeln, Person erkannt, Bewegung) mit Zeitpunkt,</li>
+    <li>kurze Vorschau-Clips zu diesen Ereignissen sowie daraus erzeugte Standbilder,</li>
+    <li>die Geräteliste des eigenen Kontos, um die Türklingel zu erkennen.</li>
+  </ul>
+
+  <h2>Wo die Daten liegen</h2>
+  <p>Alle Daten werden ausschließlich auf dem eigenen Server im Heimnetz gespeichert. Clips und Standbilder werden nach einer einstellbaren Frist (Standard: 14 Tage) automatisch gelöscht. Die Zugangsdaten zur Google-Schnittstelle liegen nur auf diesem Server.</p>
+
+  <h2>Weitergabe</h2>
+  <p>Daten werden nicht an Dritte weitergegeben, nicht verkauft und nicht für Werbung genutzt. Eine Ausnahme ist die vom Betreiber selbst eingerichtete Benachrichtigung auf das eigene Smartphone (Pushover), die ein Standbild enthalten kann.</p>
+
+  <h2>Nutzung von Google-Daten</h2>
+  <p>Die Nutzung von Daten, die über Google-APIs empfangen werden, hält sich an die <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+  <h2>Widerruf</h2>
+  <p>Der Zugriff kann jederzeit in den Einstellungen des Google-Kontos unter „Drittanbieter-Apps und -Dienste“ oder in der Google-Home-App widerrufen werden.</p>
+
+  <p><a href="index.html">Zur Startseite</a></p>
+</main>
+</body>
+</html>
